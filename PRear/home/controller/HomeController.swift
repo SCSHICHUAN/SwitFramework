@@ -8,8 +8,8 @@
 import UIKit
 
 class HomeController: UIViewController {
-
-    
+   
+    var cell:HomeTableViewCell?
     
     
     override func viewDidLoad() {
@@ -43,8 +43,25 @@ extension HomeController:UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = HomeTableViewCell.init(style: .default, reuseIdentifier: "HomeTableViewCell")
         cell.setLab(str: String.init(indexPath.row))
+        cell.delegate = self
+        self.cell = cell
         return cell
     }
     
     
+}
+
+extension HomeController:HomeTableDelegate{
+    
+    func whebuttonClick(_ str:String) ->String{
+        self.navigationController?.pushViewController(FirstVC(), animated: true)
+        cell?.blockFunc(a: { stra in
+            print(stra)
+            return "a"
+        }, b: { strb in
+            print(strb)
+            return "b"
+        })
+        return cell!.block!(str)
+    }
 }

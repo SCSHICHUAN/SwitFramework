@@ -19,6 +19,7 @@
 		820D3DAD25F2243200445A0C /* SCTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D3DAC25F2243200445A0C /* SCTabBarItem.swift */; };
 		CD3A709F75575A99FA3B751D /* Pods_PRear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCC0E2EF57F7DECCC6B300D /* Pods_PRear.framework */; };
 		F60195402912417F0027714C /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601953F2912417F0027714C /* HomeTableViewCell.swift */; };
+		F60195432913748C0027714C /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195422913748C0027714C /* FirstVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		BBCC0E2EF57F7DECCC6B300D /* Pods_PRear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PRear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D3020811A530FA4FB602B8 /* Pods-PRear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRear.release.xcconfig"; path = "Target Support Files/Pods-PRear/Pods-PRear.release.xcconfig"; sourceTree = "<group>"; };
 		F601953F2912417F0027714C /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		F60195422913748C0027714C /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		820D3D4A25F2101F00445A0C /* PRear */ = {
 			isa = PBXGroup;
 			children = (
+				F60195412913743C0027714C /* firsPage */,
 				820D3D6325F2108B00445A0C /* home */,
 				820D3D6D25F2108C00445A0C /* other */,
 			);
@@ -152,6 +155,14 @@
 				C0D3020811A530FA4FB602B8 /* Pods-PRear.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F60195412913743C0027714C /* firsPage */ = {
+			isa = PBXGroup;
+			children = (
+				F60195422913748C0027714C /* FirstVC.swift */,
+			);
+			path = firsPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +263,7 @@
 				820D3D7A25F2108C00445A0C /* AppDelegate.swift in Sources */,
 				820D3D7B25F2108C00445A0C /* SceneDelegate.swift in Sources */,
 				820D3D7725F2108C00445A0C /* DraftController.swift in Sources */,
+				F60195432913748C0027714C /* FirstVC.swift in Sources */,
 				820D3D7625F2108C00445A0C /* MineController.swift in Sources */,
 				820D3D7425F2108C00445A0C /* HomeController.swift in Sources */,
 				820D3D7525F2108C00445A0C /* MessageController.swift in Sources */,
