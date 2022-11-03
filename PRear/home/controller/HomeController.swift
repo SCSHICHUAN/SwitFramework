@@ -56,7 +56,7 @@ extension HomeController:HomeTableDelegate{
     func whebuttonClick(_ str:String) ->String{
         self.navigationController?.pushViewController(FirstVC(), animated: true)
         cell?.blockFunc(a: { stra in
-            print(stra)
+            TipsView.PopStr(str: stra)
             return "a"
         }, b: { strb in
             print(strb)
