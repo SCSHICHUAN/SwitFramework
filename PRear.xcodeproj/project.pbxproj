@@ -21,6 +21,8 @@
 		F60195402912417F0027714C /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601953F2912417F0027714C /* HomeTableViewCell.swift */; };
 		F60195432913748C0027714C /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195422913748C0027714C /* FirstVC.swift */; };
 		F60195452913A5450027714C /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195442913A5450027714C /* TipsView.swift */; };
+		F60195482914B7110027714C /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195472914B7110027714C /* Public.swift */; };
+		F601954A2914BA6D0027714C /* NetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195492914BA6D0027714C /* NetWork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		F601953F2912417F0027714C /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		F60195422913748C0027714C /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		F60195442913A5450027714C /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		F60195472914B7110027714C /* Public.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
+		F60195492914BA6D0027714C /* NetWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetWork.swift; path = PRear/firsPage/NetWork.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 		820D3D4A25F2101F00445A0C /* PRear */ = {
 			isa = PBXGroup;
 			children = (
+				F60195462914B6FB0027714C /* public */,
 				F60195412913743C0027714C /* firsPage */,
 				820D3D6325F2108B00445A0C /* home */,
 				820D3D6D25F2108C00445A0C /* other */,
@@ -106,6 +111,7 @@
 		820D3D6425F2108B00445A0C /* network */ = {
 			isa = PBXGroup;
 			children = (
+				F60195492914BA6D0027714C /* NetWork.swift */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -166,6 +172,14 @@
 				F60195422913748C0027714C /* FirstVC.swift */,
 			);
 			path = firsPage;
+			sourceTree = "<group>";
+		};
+		F60195462914B6FB0027714C /* public */ = {
+			isa = PBXGroup;
+			children = (
+				F60195472914B7110027714C /* Public.swift */,
+			);
+			path = public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +279,11 @@
 			files = (
 				820D3D7A25F2108C00445A0C /* AppDelegate.swift in Sources */,
 				820D3D7B25F2108C00445A0C /* SceneDelegate.swift in Sources */,
+				F60195482914B7110027714C /* Public.swift in Sources */,
 				820D3D7725F2108C00445A0C /* DraftController.swift in Sources */,
 				F60195432913748C0027714C /* FirstVC.swift in Sources */,
 				820D3D7625F2108C00445A0C /* MineController.swift in Sources */,
+				F601954A2914BA6D0027714C /* NetWork.swift in Sources */,
 				F60195452913A5450027714C /* TipsView.swift in Sources */,
 				820D3D7425F2108C00445A0C /* HomeController.swift in Sources */,
 				820D3D7525F2108C00445A0C /* MessageController.swift in Sources */,
