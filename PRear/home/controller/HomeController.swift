@@ -16,6 +16,8 @@ class HomeController: UIViewController {
         super.viewDidLoad()
         self.title = "首页"
         view.addSubview(tab!)
+        
+        
     }
 
     
@@ -27,7 +29,11 @@ class HomeController: UIViewController {
         return tab
     }()
 
-    
+    func mutDeletateTest(){
+        view.addSubview(AgentA(frame: CGRect(x: 100, y: 200, width: 200, height: 60)))
+        view.addSubview(AgentB(frame: CGRect(x: 100, y: 300, width: 200, height: 60)))
+        view.addSubview(AgentC(frame: CGRect(x: 100, y: 400, width: 200, height: 60)))
+    }
     
 }
 
@@ -59,6 +65,11 @@ extension HomeController:UITableViewDelegate,UITableViewDataSource{
             })
         case 1:///数据回传
             _ = cell!.block!("block 数据回传")
+        case 3:///多代理分发消息
+            mutDeletateTest()
+            DispatchQueue.main.asyncAfter(deadline: .now()+1) {
+                SendMessagePro.shard.action()
+            }
             
         default:
 //            self.navigationController?.pushViewController(FirstVC(), animated: true)
@@ -76,6 +87,8 @@ extension HomeController:UITableViewDelegate,UITableViewDataSource{
             return "block 数据回传数据"
         case 2:
             return "swift delegate"
+        case 3:
+            return "多代理分发消息"
         default:
             return ""
         }

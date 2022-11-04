@@ -16,5 +16,7 @@ class TipsView: UIView {
         let vc = UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.rootViewController
         vc!.present(alertVC, animated: true)
     }
+    
+   
 
 }

@@ -23,6 +23,11 @@
 		F60195452913A5450027714C /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195442913A5450027714C /* TipsView.swift */; };
 		F60195482914B7110027714C /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195472914B7110027714C /* Public.swift */; };
 		F601954A2914BA6D0027714C /* NetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195492914BA6D0027714C /* NetWork.swift */; };
+		F601954D2914CEDD0027714C /* AgentA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601954C2914CEDD0027714C /* AgentA.swift */; };
+		F601954F2914CEEE0027714C /* AgentB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601954E2914CEEE0027714C /* AgentB.swift */; };
+		F60195512914CEFC0027714C /* AgentC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195502914CEFC0027714C /* AgentC.swift */; };
+		F60195532914E5AD0027714C /* MangerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195522914E5AD0027714C /* MangerDelegate.swift */; };
+		F60195552914F2B00027714C /* SendMessagesPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195542914F2B00027714C /* SendMessagesPro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +51,11 @@
 		F60195442913A5450027714C /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		F60195472914B7110027714C /* Public.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
 		F60195492914BA6D0027714C /* NetWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetWork.swift; path = PRear/firsPage/NetWork.swift; sourceTree = SOURCE_ROOT; };
+		F601954C2914CEDD0027714C /* AgentA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentA.swift; sourceTree = "<group>"; };
+		F601954E2914CEEE0027714C /* AgentB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentB.swift; sourceTree = "<group>"; };
+		F60195502914CEFC0027714C /* AgentC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentC.swift; sourceTree = "<group>"; };
+		F60195522914E5AD0027714C /* MangerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangerDelegate.swift; sourceTree = "<group>"; };
+		F60195542914F2B00027714C /* SendMessagesPro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessagesPro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,7 @@
 		820D3D4A25F2101F00445A0C /* PRear */ = {
 			isa = PBXGroup;
 			children = (
+				F601954B2914CE5A0027714C /* variableAgent */,
 				F60195462914B6FB0027714C /* public */,
 				F60195412913743C0027714C /* firsPage */,
 				820D3D6325F2108B00445A0C /* home */,
@@ -180,6 +191,18 @@
 				F60195472914B7110027714C /* Public.swift */,
 			);
 			path = public;
+			sourceTree = "<group>";
+		};
+		F601954B2914CE5A0027714C /* variableAgent */ = {
+			isa = PBXGroup;
+			children = (
+				F601954C2914CEDD0027714C /* AgentA.swift */,
+				F601954E2914CEEE0027714C /* AgentB.swift */,
+				F60195502914CEFC0027714C /* AgentC.swift */,
+				F60195522914E5AD0027714C /* MangerDelegate.swift */,
+				F60195542914F2B00027714C /* SendMessagesPro.swift */,
+			);
+			path = variableAgent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,17 +302,22 @@
 			files = (
 				820D3D7A25F2108C00445A0C /* AppDelegate.swift in Sources */,
 				820D3D7B25F2108C00445A0C /* SceneDelegate.swift in Sources */,
+				F60195532914E5AD0027714C /* MangerDelegate.swift in Sources */,
 				F60195482914B7110027714C /* Public.swift in Sources */,
 				820D3D7725F2108C00445A0C /* DraftController.swift in Sources */,
 				F60195432913748C0027714C /* FirstVC.swift in Sources */,
 				820D3D7625F2108C00445A0C /* MineController.swift in Sources */,
 				F601954A2914BA6D0027714C /* NetWork.swift in Sources */,
 				F60195452913A5450027714C /* TipsView.swift in Sources */,
+				F60195552914F2B00027714C /* SendMessagesPro.swift in Sources */,
 				820D3D7425F2108C00445A0C /* HomeController.swift in Sources */,
+				F60195512914CEFC0027714C /* AgentC.swift in Sources */,
+				F601954F2914CEEE0027714C /* AgentB.swift in Sources */,
 				820D3D7525F2108C00445A0C /* MessageController.swift in Sources */,
 				F60195402912417F0027714C /* HomeTableViewCell.swift in Sources */,
 				820D3DAD25F2243200445A0C /* SCTabBarItem.swift in Sources */,
 				820D3D7325F2108C00445A0C /* CenterController.swift in Sources */,
+				F601954D2914CEDD0027714C /* AgentA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

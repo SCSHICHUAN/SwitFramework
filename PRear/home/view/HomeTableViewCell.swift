@@ -74,6 +74,7 @@ class HomeTableViewCell: UITableViewCell {
    
     lazy var lab: UILabel = {
         let tmp = UILabel.init(frame: CGRect(x: 20, y: 10, width: k_screen_w - 20, height: 30))
+        
         return tmp
     }()
     
