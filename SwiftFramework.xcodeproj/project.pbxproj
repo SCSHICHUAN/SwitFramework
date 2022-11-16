@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,17 +22,18 @@
 		F60195432913748C0027714C /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195422913748C0027714C /* FirstVC.swift */; };
 		F60195452913A5450027714C /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195442913A5450027714C /* TipsView.swift */; };
 		F60195482914B7110027714C /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195472914B7110027714C /* Public.swift */; };
-		F601954A2914BA6D0027714C /* NetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195492914BA6D0027714C /* NetWork.swift */; };
 		F601954D2914CEDD0027714C /* AgentA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601954C2914CEDD0027714C /* AgentA.swift */; };
 		F601954F2914CEEE0027714C /* AgentB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601954E2914CEEE0027714C /* AgentB.swift */; };
 		F60195512914CEFC0027714C /* AgentC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195502914CEFC0027714C /* AgentC.swift */; };
 		F60195532914E5AD0027714C /* MangerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195522914E5AD0027714C /* MangerDelegate.swift */; };
 		F60195552914F2B00027714C /* SendMessagesPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60195542914F2B00027714C /* SendMessagesPro.swift */; };
+		F6857A832924C07A00C8B6F2 /* LiveInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6857A822924C07A00C8B6F2 /* LiveInit.swift */; };
+		F6857A892924CC2000C8B6F2 /* NetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6857A882924CC2000C8B6F2 /* NetWork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E724F30661EB5D7208A9717 /* Pods-PRear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRear.debug.xcconfig"; path = "Target Support Files/Pods-PRear/Pods-PRear.debug.xcconfig"; sourceTree = "<group>"; };
-		820D3D4825F2101F00445A0C /* PRear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		820D3D4825F2101F00445A0C /* SwiftFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		820D3D5925F2102100445A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		820D3D6625F2108B00445A0C /* CenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterController.swift; sourceTree = "<group>"; };
 		820D3D6725F2108B00445A0C /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -50,12 +51,13 @@
 		F60195422913748C0027714C /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		F60195442913A5450027714C /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		F60195472914B7110027714C /* Public.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
-		F60195492914BA6D0027714C /* NetWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetWork.swift; path = PRear/firsPage/NetWork.swift; sourceTree = SOURCE_ROOT; };
 		F601954C2914CEDD0027714C /* AgentA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentA.swift; sourceTree = "<group>"; };
 		F601954E2914CEEE0027714C /* AgentB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentB.swift; sourceTree = "<group>"; };
 		F60195502914CEFC0027714C /* AgentC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentC.swift; sourceTree = "<group>"; };
 		F60195522914E5AD0027714C /* MangerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangerDelegate.swift; sourceTree = "<group>"; };
 		F60195542914F2B00027714C /* SendMessagesPro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessagesPro.swift; sourceTree = "<group>"; };
+		F6857A822924C07A00C8B6F2 /* LiveInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveInit.swift; sourceTree = "<group>"; };
+		F6857A882924CC2000C8B6F2 /* NetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +83,7 @@
 		820D3D3F25F2101F00445A0C = {
 			isa = PBXGroup;
 			children = (
-				820D3D4A25F2101F00445A0C /* PRear */,
+				820D3D4A25F2101F00445A0C /* SwiftFramework */,
 				820D3D4925F2101F00445A0C /* Products */,
 				901FF0672AA02D48150262D4 /* Pods */,
 				640903D9B37501F67C69F136 /* Frameworks */,
@@ -91,40 +93,33 @@
 		820D3D4925F2101F00445A0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				820D3D4825F2101F00445A0C /* PRear.app */,
+				820D3D4825F2101F00445A0C /* SwiftFramework.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		820D3D4A25F2101F00445A0C /* PRear */ = {
+		820D3D4A25F2101F00445A0C /* SwiftFramework */ = {
 			isa = PBXGroup;
 			children = (
+				F6857A812924C03400C8B6F2 /* agora */,
 				F601954B2914CE5A0027714C /* variableAgent */,
 				F60195462914B6FB0027714C /* public */,
 				F60195412913743C0027714C /* firsPage */,
 				820D3D6325F2108B00445A0C /* home */,
 				820D3D6D25F2108C00445A0C /* other */,
 			);
-			path = PRear;
+			path = SwiftFramework;
 			sourceTree = "<group>";
 		};
 		820D3D6325F2108B00445A0C /* home */ = {
 			isa = PBXGroup;
 			children = (
-				820D3D6425F2108B00445A0C /* network */,
+				F6857A872924CC0500C8B6F2 /* network */,
 				820D3D6B25F2108B00445A0C /* model */,
 				820D3D6C25F2108B00445A0C /* view */,
 				820D3D6525F2108B00445A0C /* controller */,
 			);
 			path = home;
-			sourceTree = "<group>";
-		};
-		820D3D6425F2108B00445A0C /* network */ = {
-			isa = PBXGroup;
-			children = (
-				F60195492914BA6D0027714C /* NetWork.swift */,
-			);
-			path = network;
 			sourceTree = "<group>";
 		};
 		820D3D6525F2108B00445A0C /* controller */ = {
@@ -205,25 +200,42 @@
 			path = variableAgent;
 			sourceTree = "<group>";
 		};
+		F6857A812924C03400C8B6F2 /* agora */ = {
+			isa = PBXGroup;
+			children = (
+				F6857A822924C07A00C8B6F2 /* LiveInit.swift */,
+			);
+			path = agora;
+			sourceTree = "<group>";
+		};
+		F6857A872924CC0500C8B6F2 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				F6857A882924CC2000C8B6F2 /* NetWork.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		820D3D4725F2101F00445A0C /* PRear */ = {
+		820D3D4725F2101F00445A0C /* SwiftFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 820D3D5C25F2102100445A0C /* Build configuration list for PBXNativeTarget "PRear" */;
+			buildConfigurationList = 820D3D5C25F2102100445A0C /* Build configuration list for PBXNativeTarget "SwiftFramework" */;
 			buildPhases = (
 				4E401EB6299FC3AFC31A3A83 /* [CP] Check Pods Manifest.lock */,
 				820D3D4425F2101F00445A0C /* Sources */,
 				820D3D4525F2101F00445A0C /* Frameworks */,
 				820D3D4625F2101F00445A0C /* Resources */,
+				61A4B76CF1DADFA151D6DF1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PRear;
+			name = SwiftFramework;
 			productName = PRear;
-			productReference = 820D3D4825F2101F00445A0C /* PRear.app */;
+			productReference = 820D3D4825F2101F00445A0C /* SwiftFramework.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -240,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 820D3D4325F2101F00445A0C /* Build configuration list for PBXProject "PRear" */;
+			buildConfigurationList = 820D3D4325F2101F00445A0C /* Build configuration list for PBXProject "SwiftFramework" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -253,7 +265,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				820D3D4725F2101F00445A0C /* PRear */,
+				820D3D4725F2101F00445A0C /* SwiftFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -293,6 +305,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		61A4B76CF1DADFA151D6DF1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PRear/Pods-PRear-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PRear/Pods-PRear-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PRear/Pods-PRear-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -300,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6857A832924C07A00C8B6F2 /* LiveInit.swift in Sources */,
 				820D3D7A25F2108C00445A0C /* AppDelegate.swift in Sources */,
 				820D3D7B25F2108C00445A0C /* SceneDelegate.swift in Sources */,
 				F60195532914E5AD0027714C /* MangerDelegate.swift in Sources */,
@@ -307,11 +337,11 @@
 				820D3D7725F2108C00445A0C /* DraftController.swift in Sources */,
 				F60195432913748C0027714C /* FirstVC.swift in Sources */,
 				820D3D7625F2108C00445A0C /* MineController.swift in Sources */,
-				F601954A2914BA6D0027714C /* NetWork.swift in Sources */,
 				F60195452913A5450027714C /* TipsView.swift in Sources */,
 				F60195552914F2B00027714C /* SendMessagesPro.swift in Sources */,
 				820D3D7425F2108C00445A0C /* HomeController.swift in Sources */,
 				F60195512914CEFC0027714C /* AgentC.swift in Sources */,
+				F6857A892924CC2000C8B6F2 /* NetWork.swift in Sources */,
 				F601954F2914CEEE0027714C /* AgentB.swift in Sources */,
 				820D3D7525F2108C00445A0C /* MessageController.swift in Sources */,
 				F60195402912417F0027714C /* HomeTableViewCell.swift in Sources */,
@@ -369,7 +399,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -458,13 +488,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3V4P556M84;
-				INFOPLIST_FILE = PRear/other/Info.plist;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3JXF3ZZ9G5;
+				INFOPLIST_FILE = SwiftFramework/other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.thepaper.pai.PRear;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.framework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -478,13 +510,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3V4P556M84;
-				INFOPLIST_FILE = PRear/other/Info.plist;
+				DEVELOPMENT_TEAM = 3JXF3ZZ9G5;
+				INFOPLIST_FILE = SwiftFramework/other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.thepaper.pai.PRear;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.framework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -494,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		820D3D4325F2101F00445A0C /* Build configuration list for PBXProject "PRear" */ = {
+		820D3D4325F2101F00445A0C /* Build configuration list for PBXProject "SwiftFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				820D3D5A25F2102100445A0C /* Debug */,
@@ -503,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		820D3D5C25F2102100445A0C /* Build configuration list for PBXNativeTarget "PRear" */ = {
+		820D3D5C25F2102100445A0C /* Build configuration list for PBXNativeTarget "SwiftFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				820D3D5D25F2102100445A0C /* Debug */,

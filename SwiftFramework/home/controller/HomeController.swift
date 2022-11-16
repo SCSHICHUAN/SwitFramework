@@ -10,6 +10,11 @@ import UIKit
 class HomeController: UIViewController {
    
     var cell:HomeTableViewCell?
+    var mainMenu = ["block 网络请求方法外传数据",
+                    "block 数据回传数据",
+                    "swift delegate",
+                    "多代理分发消息",
+                    "声网直播"]
     
     
     override func viewDidLoad() {
@@ -40,13 +45,13 @@ class HomeController: UIViewController {
 extension HomeController:UITableViewDelegate,UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        20
+        mainMenu.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = HomeTableViewCell.init(style: .default, reuseIdentifier: "HomeTableViewCell")
         cell.tag = indexPath.row
-        cell.setLab(str: menuFunction(index: indexPath))
+        cell.setLab(str: mainMenu[indexPath.row])
         cell.delegate = self
         self.cell = cell
         return cell
@@ -56,6 +61,8 @@ extension HomeController:UITableViewDelegate,UITableViewDataSource{
         
         switch indexPath.row {
         case 0:///模拟网络请求
+            let a = NSMutableArray()    
+            _ = a[0]
             NetWork().blockFunc(a: { stra in
                 TipsView.PopStr(str: stra)
                 return "a"
@@ -70,6 +77,8 @@ extension HomeController:UITableViewDelegate,UITableViewDataSource{
             DispatchQueue.main.asyncAfter(deadline: .now()+1) {
                 SendMessagePro.shard.action()
             }
+        case 4://声望直播
+            self.navigationController?.pushViewController(LiveInit(), animated: true)
             
         default:
 //            self.navigationController?.pushViewController(FirstVC(), animated: true)
@@ -78,25 +87,16 @@ extension HomeController:UITableViewDelegate,UITableViewDataSource{
         
     }
     
-    ///主menu 显示
-    func menuFunction(index:IndexPath)->String{
-        switch index.row {
-        case 0:
-           return "block 网络请求方法外传数据"
-        case 1:
-            return "block 数据回传数据"
-        case 2:
-            return "swift delegate"
-        case 3:
-            return "多代理分发消息"
-        default:
-            return ""
-        }
-    }
+   
+    
     
    
     
 }
+
+
+
+
 
 
 ///HomeTableDelegate

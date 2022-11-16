@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:PRear.xcodeproj">
+      location = "group:/Users/stan/Documents/MacElements/StanStudy/swift/swift-&#x81ea;&#x5df1;Dome/SwitFramework/SwiftFramework.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
